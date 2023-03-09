@@ -1,0 +1,40 @@
+.cta {
+    margin: 96px auto;
+    background-image: url(../../img/Bg-img.png);
+    width: 1280px;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      color: #fff;
+      margin-bottom: 32px;
+    }
+    &__box {
+      display: flex;
+      justify-content: space-between;
+      width: 348px;
+    }
+    &__join {
+      font-family: "Roboto";
+      background: #70c174;
+      backdrop-filter: blur(40px);
+      border-radius: 4px;
+      padding: 16px 32px;
+      color: #fff;
+    }
+    &__donate {
+      font-family: "Roboto";
+      background: #fff;
+      border-radius: 4px;
+      text-align: right;
+      padding: 12px 32px;
+      color: #1d2130;
+      padding: 16px 32px;
+    }
+  }

@@ -1,0 +1,21 @@
+.about-section{
+
+    &__inner{
+        display: flex;
+        margin-top: 96px;
+        gap: 96px;
+    }
+
+    &__footer{
+        display: flex;
+        align-items: center;
+        margin-top: 64px;
+        gap: 20px;
+        margin-bottom: 34px;
+    }
+
+    &__footer-logos{
+        display: flex;
+        gap: 96.3px;
+    }
+}

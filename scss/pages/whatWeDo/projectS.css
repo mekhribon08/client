@@ -1,0 +1,85 @@
+.projects-section {
+  margin: 69px auto;
+}
+.projects-section__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.projects-section__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1d2130;
+}
+.projects-section__subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #1d2130;
+}
+.projects-section__box {
+  display: flex;
+  gap: 24px;
+}
+.projects-section .project {
+  width: 411px;
+  height: 421px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.projects-section .project:first-child {
+  background-image: url(../../img/Project-img-1.png);
+}
+.projects-section .project:nth-child(2) {
+  background-image: url(../../img/Project-img-2.png);
+}
+.projects-section .project:last-child {
+  background-image: url(../../img/Project-img-3.png);
+}
+.projects-section .project__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #fff;
+  padding-top: 60px;
+  margin-left: 48px;
+  margin-bottom: 16px;
+  width: 315px;
+}
+.projects-section .project__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #fff;
+  width: 315px;
+  margin-left: 48px;
+  margin-bottom: 64px;
+}
+.projects-section .project__btn {
+  font-family: "Roboto";
+  background: #fff;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d2130;
+  padding: 16px 32px;
+  border: none;
+  margin-left: 48px;
+}
+.projects-section__line {
+  width: 72px;
+  border: 2px solid #1d2130;
+}/*# sourceMappingURL=projectS.css.map */

@@ -1,0 +1,43 @@
+.hero {
+  margin: 69px auto;
+  display: flex;
+  justify-content: space-between;
+  &__box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  &__line {
+    margin-right: 24px;
+    width: 72px;
+    border: 2px solid #1d2130;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d2130;
+  }
+  &__subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1d2130;
+    width: 461px;
+    margin-bottom: 34px;
+    margin-left: 96px;
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+    width: 594px;
+    margin-left: 96px;
+  }
+}

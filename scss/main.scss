@@ -1,0 +1,42 @@
+@import "./variables";
+@import "./common";
+// @import "./pages/blocks/block_post_header";
+// @import "./pages/blocks/block-post_verstka";
+// @import "./pages/blocks/block_post_sect_1";
+// @import "./pages/blocks/block_post-sect-2";
+// @import "./pages/blocks/block_post_footer";
+
+@import "./pages/home_page/home_page-commons";
+@import "./pages/home_page/home_page-hero";
+@import "./pages/home_page/home_page-about";
+@import "./pages/home_page/home_page-care";
+@import "./pages/home_page/home_page-stats";
+@import "./pages/home_page/home_page-projects";
+@import "./pages/home_page/home_page-cta";
+@import "./pages/home_page/home_page-blog";
+@import "./pages/home_page/home_page-events";
+
+@import "./pages/aboutUs/aboutUs.scss";
+
+@import "./pages/whatWeDo/projectS.scss";
+@import "./pages/whatWeDo/hero.scss";
+@import "./pages/whatWeDo/events.scss";
+@import "./pages/whatWeDo/environment.scss";
+@import "./pages/whatWeDo/ctaS.scss";
+@import "./pages/whatWeDo/blogS.scss";
+
+@import "./pages/media/media.scss";
+
+@import "./pages/contact/sec_contact-us.scss";
+@import "./pages/contact/sec-email.scss";
+
+@import "./pages/donation/donation.scss";
+
+@import "./pages/projectReadMore/blocks/information";
+@import "./pages/projectReadMore/blocks/features";
+@import "./pages/projectReadMore/blocks/project";
+@import "./pages/projectReadMore/blocks/cta";
+
+@import "./pages/blockPost/blockPost.scss";
+
+@import "./pages/lastEvent/event.scss";

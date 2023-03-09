@@ -1,0 +1,81 @@
+.projects {
+    margin: 69px auto;
+    &__texts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 64px;
+    }
+    &__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #1d2130;
+    }
+    &__subtitle {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      color: #1d2130;
+    }
+    &__box {
+      display: flex;
+      gap: 24px;
+      margin-top: 65px;
+    }
+    .project {
+      width: 411px;
+      height: 421px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project:first-child {
+      background-image: url(../../img/Project-img-1.png);
+    }
+    .project:nth-child(2) {
+      background-image: url(/img/Project-image-2.png);
+    }
+    .project:last-child {
+      background-image: url(../../img/Project-img-3.png);
+    }
+    .project__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 150%;
+      color: #fff;
+      padding-top: 60px;
+      margin-left: 48px;
+      margin-bottom: 16px;
+      width: 315px;
+    }
+    .project__text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #fff;
+      width: 315px;
+      margin-left: 48px;
+      margin-bottom: 64px;
+    }
+    .project__btn {
+      font-family: "Roboto";
+      background: #fff;
+      backdrop-filter: blur(40px);
+      border-radius: 4px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #1d2130;
+      padding: 16px 32px;
+      border: none;
+      margin-left: 48px;
+    }
+  }

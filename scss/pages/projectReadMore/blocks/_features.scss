@@ -1,0 +1,27 @@
+.features {
+  background: #ebf0f9;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.features__inner {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 100px;
+}
+
+.features__inner-wrap-content h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(29, 33, 48);
+  margin-bottom: 10px;
+}
+
+.features__inner-wrap-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+  margin-bottom: 20px;
+}

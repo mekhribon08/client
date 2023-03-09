@@ -1,0 +1,92 @@
+.events {
+    > div {
+      display: flex;
+      align-items: center;
+    }
+    margin: 69px auto;
+    &__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 140%;
+      color: #1d2130;
+      margin: 24px 0;
+    }
+    &__line {
+      width: 981px;
+      border: 1px solid #e5e5e5;
+      transform: rotate(180deg);
+      margin-left: 24px;
+    }
+    &__boxes {
+      gap: 24px;
+    }
+    &__box {
+      padding-top: 32px;
+      padding-left: 40px;
+      display: flex;
+      background: #bef3c0;
+      border-radius: 8px;
+      width: 628px;
+      height: 191px;
+    }
+    &__header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    &__date {
+      margin-right: 24px;
+      margin-top: -1.5%;
+    }
+    &__month {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #1d2130;
+    }
+    &__day {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 120%;
+      font-variant: small-caps;
+      color: #1d2130;
+    }
+    &__line--shorter {
+      width: 44px;
+      border: 1px solid #1d2130;
+      margin-left: 23px;
+    }
+    &__subtitle {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #1d2130;
+    }
+    &__text {
+      width: 381px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 150%;
+      color: #1d2130;
+    }
+    &__btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      background: #fff;
+      border-radius: 50%;
+      margin-left: 24px;
+      margin-top: 5%;
+    }
+  }
